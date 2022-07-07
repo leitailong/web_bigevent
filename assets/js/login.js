@@ -75,7 +75,7 @@ $(function () {
                 layer.msg('登录成功');
                 // 将登录成功之后服务器给的token字符串存到本地
                 localStorage.setItem('token',res.token);
-                location.href='/index.html';
+                location.href='./index.html';
             }
         });
     });
